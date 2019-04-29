@@ -13,7 +13,6 @@ img{
 	max-width: 100%;
 }
 
-/*nav*/
 header{
 	border-bottom:20px solid grey;
     border-top:20px solid grey;
@@ -53,23 +52,17 @@ nav a{
 }
 
 nav a:hover{
-	border:2px solid black;
+	border:1px solid black;
 	color:black;
 }
 
 /*columns*/
-.container, h2{
-    font-size:50px;
+.container, header{
 	max-width:900px;
-	margin:15px;
-    font-weight: bolder;
+	margin:15px auto;
 }
 
-.container, p{
-    max-width:900px;
-	margin:12px;
-    font-size: 15px;   
-}
+
 
 .row:after{
 	content:'';
@@ -98,7 +91,11 @@ c50,iframe{
 
 
 
-/*brand*/
+/*brand    .container, p{
+    max-width:900px;
+	margin:12px;
+    font-size: 15px;   
+}*/
 .hero{
 	background: #ccc;
 	border-radius:15px;
