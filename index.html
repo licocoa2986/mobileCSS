@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Wenbo Li's World</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    
+<body>
+	<header>
+		<h1 id="logo">Wenbo Li</h1>
+		<div id="mobilenav"><a href="#">&#9776;</a></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<div class="container">
+        <h2>Welcome to my World!</h2>
+            <p>Since beginning my journey in this field, my dedication to the work and motivation to grow have led me to exceptional projects and experiences. Take a moment to explore my portfolio below, which includes a combination of collaborations, commissioned work and side projects. Don’t hesitate to reach out if you’d like to learn more.</p>
+            
+		<div class="row">
+			<div class="col c25">
+				<h2>Logo 01</h2>
+				<img src="assets/img/13.png">
+			</div>
+			<div class="col c25">
+				<h2>Logo 02</h2>
+				<img src="assets/img/14.png">
+			</div>
+			<div class="col c25">
+				<h2>Logo 03</h2>
+				<img src="assets/img/15.png">
+			</div>
+			<div class="col c25">
+				<h2>Logo 04</h2>
+				<img src="assets/img/16.png">
+			</div>
+		</div>
+            
+	   <div class="container">
+		<div class="row">
+			<div class="col c50">
+				<h2>Map</h2>
+                <iframe name="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9647774033006!2d-74.01371258459487!3d40.71879187933122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1e7e56a86f%3A0x69339e9ddf4f987a!2sBorough+of+Manhattan+Community+College!5e0!3m2!1sen!2sus!4v1556508564669!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            
+			<div class="col c50">
+                <h2>Telephone No.</h2>
+                <p>(212)220-8000</p>
+				<h2>Address</h2>
+                <p>The Borough of Manhattan Community College<br>199 Chambers St<br>New York, NY 10007</p>
+			</div>
+		</div>
+	   </div>
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$('#mobilenav').click(function() {
+			$('nav').toggle();
+		});
+		$(window).resize(function() {
+			if (window.innerWidth > 575) {
+				$('nav').show();
+			};
+		});
+	</script>
+</body>
+</html>
